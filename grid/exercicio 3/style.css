@@ -1,0 +1,25 @@
+body{
+    margin: 0px;
+}
+footer{
+    padding: 100px;
+    background-color: grey;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 5px;
+}
+.column1{
+    background-color: aqua;
+}
+.column2{
+    background-color: blue;
+}
+.column3{
+    background-color: blueviolet;
+}
+.footer{
+    grid-column: 1/4;
+    background-color: grey;
+}

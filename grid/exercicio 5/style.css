@@ -1,0 +1,23 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: auto 1fr;
+    gap: 5px;
+}
+.header{
+    grid-column: 1/4;
+    background-color: aqua;
+}
+.nav{
+    background-color: aquamarine;
+}
+.main{
+    background-color: blue;
+}
+.aside{
+    background-color: blueviolet;
+}
+.footer{
+    grid-column: 1/4;
+    background-color: brown;
+}

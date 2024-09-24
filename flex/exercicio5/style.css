@@ -1,0 +1,27 @@
+.container{
+    display: flex;
+    flex-direction: row;
+}
+.container div{
+    width: 32%;
+    height: 100px;
+    text-align: center;
+    margin: 5px;
+}
+.basico{
+    background-color: blueviolet;
+}
+.padrao{
+    background-color: blue;
+}
+.premium{
+    background-color: aquamarine;
+}
+@media (max-width: 600px){
+    .container{
+        flex-direction: column;
+    }
+    .container div{
+        width: 100%;
+    }
+}

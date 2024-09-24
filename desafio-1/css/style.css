@@ -14,7 +14,6 @@ body {
     grid-template-columns: 1fr 4fr 1fr;
     grid-template-rows: 99px 1fr;
     gap: 5px;
-    /* width: 50vh; */
 }
 header{
     grid-column: 1 / 4;
@@ -30,7 +29,7 @@ footer{
     display: flex;
     grid-column: 1/4;
     justify-content: center;
-    font-weight: ;
+    font-weight: bold;
 }
 ul{
     display: flex;
